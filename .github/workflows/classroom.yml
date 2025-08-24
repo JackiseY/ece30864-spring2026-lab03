@@ -1,0 +1,32 @@
+name: Autograding Tests
+'on':
+- workflow_dispatch
+- repository_dispatch
+permissions:
+  checks: write
+  actions: read
+  contents: read
+jobs:
+  run-autograding-tests:
+    runs-on: ubuntu-latest
+    if: github.actor != 'github-classroom[bot]'
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    - name: Correct Folder Names
+      id: correct-folder-names
+      uses: classroom-resources/autograding-io-grader@v1
+      with:
+        test-name: Correct Folder Names
+        setup-command: ''
+        command: ls  | grep -Ev "Lab[0-1][0-9]" | grep -Ev "README.md" | wc -l
+        input: ''
+        expected-output: '0'
+        comparison-method: exact
+        timeout: 10
+    - name: Autograding Reporter
+      uses: classroom-resources/autograding-grading-reporter@v1
+      env:
+        CORRECT-FOLDER-NAMES_RESULTS: "${{steps.correct-folder-names.outputs.result}}"
+      with:
+        runners: correct-folder-names
