@@ -1,0 +1,148 @@
+body {
+  margin: 20px 40px;
+}
+
+p {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-top: 16px;
+}
+
+/*--- This is the CSS class for the green rectangular blocks. Note that it uses display: flex ---*/
+.wrapper {
+  display: flex;
+  height: 60px;
+  background-color: green;
+  margin-bottom: 20px;
+}
+
+/*--- flex: 1 makes it so that the div takes up all available space left in the parent element ---*/
+.redExample {
+  flex: 1;
+  background-color: red;
+}
+
+/*--- Since both .redExample and .blueExample have flex: 1, they will take up an equal amount of space because they meet in the middle ---*/
+.blueExample {
+  flex: 1;
+  background-color: blue;
+}
+
+/*--- flex-direction: row-reverse orders all child elements starting from right to left ---*/
+.emptyExample2 {
+  display: flex;
+  flex: 1;
+  flex-direction: row-reverse;
+}
+
+.blueExample2 {
+  width: 80px;
+  background-color: blue;
+}
+
+/* TODO: Add CSS for the rest of your solution below */
+.row3 .r3-red {
+  width: 60px;
+  background-color: red;
+}
+
+.row3 .r3-greenfill {
+  flex: 1;
+  background-color: green;
+}
+
+.row3 .r3-blue {
+  width: 80px;
+  background-color: blue;
+}
+
+.row4 .r4-red {
+  flex: 1;
+  background-color: red;
+}
+
+.row4 .r4-blue {
+  width: 80px;
+  background-color: blue;
+}
+
+.row5 {
+  justify-content: center;
+  align-items: center;
+}
+
+.row5 .r5-left,
+.row5 .r5-right {
+  flex: 1;
+  background-color: green;
+}
+
+.row5 .r5-mid {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+}
+
+.row6 .r6-red-left {
+  flex: 1;
+  background-color: red;
+}
+
+.row6 .r6-blue-mid {
+  width: 40px;
+  background-color: blue;
+}
+
+.row6 .r6-red-right {
+  flex: 1;
+  background-color: red;
+}
+
+.row7 .r7-red {
+  width: 40px;
+  background-color: red;
+}
+
+.row7 .r7-blue {
+  flex: 1;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+}
+
+.row7 .r7-greenbar {
+  height: 14px;
+  width: 100%;
+  background-color: green;
+}
+
+.row8 {
+  background-color: orange;
+}
+
+.row8 .r8-green {
+  flex: 5;
+  background-color: green;
+}
+
+.row8 .r8-orange {
+  flex: 1;
+  background-color: orange;
+}
+
+.row9 {
+  background-color: orange;
+}
+
+.row9 .r9-green {
+  flex: 1;
+  background-color: green;
+}
+
+.row9 .r9-orange {
+  flex: 5;
+  background-color: orange;
+}
+
+
