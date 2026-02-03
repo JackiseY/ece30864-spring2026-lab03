@@ -1,1 +1,21 @@
 CSP-16 update
+Agile prons:
+Flexible to changes
+Faster feedback from users
+Continuous improvement
+Higher team collaboration
+
+Agile cons:
+Less predictable timeline/cost
+Requires strong communication
+Scope can expand easily
+
+Non-Agile (Waterfall) – pros
+Clear structure and documentation
+Predictable schedule and budget
+Good for fixed requirements
+
+Non-Agile – cons
+Hard to change once started
+Late testing/feedback
+
