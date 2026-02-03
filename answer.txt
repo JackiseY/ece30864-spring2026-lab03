@@ -19,3 +19,15 @@ Non-Agile – cons
 Hard to change once started
 Late testing/feedback
 
+Scrum Master
+Facilitates Scrum process
+Removes team blockers
+Protects team from distractions
+Coaches team on Agile practices
+
+Product Owner
+Defines product vision
+Manages and prioritizes backlog
+Decides what gets built next
+Represents customer/stakeholders
+
