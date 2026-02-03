@@ -42,3 +42,8 @@ Any blockers?
 Sprint Review
 Demo of completed work
 Stakeholder feedback
+
+Epic – Large feature or goal, broken into many stories
+Story – A user-focused feature or requirement
+Bug – Something not working correctly
+Task – A specific piece of work (technical or general)
