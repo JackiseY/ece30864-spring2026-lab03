@@ -31,3 +31,14 @@ Manages and prioritizes backlog
 Decides what gets built next
 Represents customer/stakeholders
 
+Sprint Planning
+
+What will we build this sprint?
+How will we do the work?
+Daily Scrum (Stand-up)
+What did I do yesterday?
+What will I do today?
+Any blockers?
+Sprint Review
+Demo of completed work
+Stakeholder feedback
